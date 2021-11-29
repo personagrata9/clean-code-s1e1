@@ -5,24 +5,24 @@
   font-family: Lato, sans-serif;
 }
 
-.info {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.info .info-img {
+.header .info-img {
   width: 100%;
 }
 
-.info .more-info {
+.header .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .info {
+  .header {
     text-align: center;
   }
 
@@ -75,7 +75,7 @@ button{
 
 /* Heading */
 .heading,
-.new-task-label {
+.heading-new-tasks {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,13 +103,11 @@ button{
 }
 
 /* New Task */
-.new-task-label {
+
+.heading-new-tasks {
   display: block;
   margin: 0 0 20px;
-}
-
-#new-task {
-  width: 318px;
+  width: 100%;
 }
 
 /* Task list */
